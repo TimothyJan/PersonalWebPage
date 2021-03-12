@@ -11,6 +11,15 @@
 
 <body>
   <div class="topContainer">
+
+    <ul class="navBar">
+      <li><a href=#contactMe>Contact</a></li>
+      <li><a href=#education>Education</a></li>
+      <li><a href=#career>Career</a></li>
+      <li><a href=#skills>Skills</a></li>
+      <li><a href=#profilePhoto>About</a></li>
+    </ul>
+
     <img class="topCloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm Tim.</h1>
     <h2>a <span class="underlined">pro</span>grammer.</h2>
@@ -19,15 +28,15 @@
   </div>
   <div class="middleContainer">
     <div class="profile">
-      <img class="profilePhoto" src="images/Shibuya Crossing circle-cropped.png" alt="Tim Jan's profile photo">
+      <img id=profilePhoto class="profilePhoto" src="images/Shibuya Crossing circle-cropped.png" alt="Tim Jan's profile photo">
       <h2>Hello.</h2>
       <p class="introduction">I am an aspiring Software Engineer based in Los Angeles, California.
-        Currently pursuing my M.S in Computer Science at CSU Fullerton and I graduated with a B.S. in Electrical Engineering at the University of California Irvine.
+        Currently pursuing my <span class="underlined">M.S in Computer Science at CSU Fullerton</span> and I graduated with a <span class="underlined">B.S. in Electrical Engineering at the University of California Irvine</span>.
         I have experience in the Electrical Engineering and Project Managment environment but am seeking to switch into a more
         software focused role. 😎</p>
     </div>
     <hr>
-    <div class="skills">
+    <div id=skills class="skills">
       <h2>My Skills.</h2>
       <div class="skillsRow">
         <img class="oddSkillsIcon" src="https://image.flaticon.com/icons/svg/2920/2920242.svg" alt="Coding icon">
@@ -53,18 +62,94 @@
       </div>
     </div>
     <hr>
-    <div class="contactMe">
+
+    <div id="career" class="career">
+      <h2>Professional Career</h2>
+      <p>
+        <span class="bold">Process Engineer</span>
+        <span style="careerDates">May 6, 2019 - October 27, 2020</span><br>
+        <span class="bold">Applied Medical</span> - Rancho Santa Margarita, CA<br>
+        Full-Time<br>
+      <ul>
+        <li>Collaborated with multiple departments in the evaluation and execution of process improvements, process validation and cost reductions.</li>
+        <li>Assisted senior engineers in qualifying a new harness for cost reduction and improved efficiency. Documented and presented data by evaluating harnesses from different vendors and working with multiple teams to institute change. Confirmed
+          through objective evidence, that the Design Verification met the requirements of the Design Input and Design Output while satisfying standards.</li>
+      </ul>
+      </p>
+      <p>
+        <span class="bold">Failure Analysis Engineer</span>
+        <span style="careerDates">February 2019 – May 2, 2019</span><br>
+        <span class="bold">Abbott</span> - Sylmar, CA <br>
+        Contract<br>
+      <ul>
+        <li>Received implantable medical devices with issues and/or complaints and ran different in-depth examinations suitable for each returned product to identify the root cause.</li>
+        <li>Evaluated device performances, images, interrogations, and longevity using in-house tools to produce reports detailing the analysis and results.</li>
+      </ul>
+      </p>
+      <p>
+        <span class="bold">Electrical Engineer I</span>
+        <span style="careerDates">June 11, 2018 – Jan, 4, 2019</span><br>
+        <span class="bold">Abbott</span> - Sylmar, CA <br>
+        Contract<br>
+      <ul>
+        <li>Executed and modified sequences and modules using in-house development tools for developing and testing implantable medical devices in St. Jude Medical.</li <li>Troubleshot medical devices to identify and isolate firmware and software issues
+        using data acquisition/measurement devices such as oscilloscopes, DMMs, and AWGs etc.</li>
+        <li>Analyzed and gathered data to generate quality and R&D reports. </li>
+      </ul>
+      </p>
+      <p>
+        <span class="bold">Software Test Engineer</span>
+        <span style="careerDates">July 20 2017 – June 1, 2018</span><br>
+        <span class="bold">Hycor Biomedical</span> - Garden Grove, CA <br>
+        Contract<br>
+      <ul>
+        <li>Conducted test protocols and simulations for the allergy/autoimmune antibody testing software and instruments.</li>
+        <li>Utilized TESTTRACK software for bug/defect tracking and documentation.</li>
+        <li>Configured personal computers with necessary software and hardware to execute and run allergy/autoimmune antibody testing software and instruments.</li>
+      </ul>
+      </p>
+      <p>
+        <span class="bold">Operations Building Leader</span>
+        <span style="float:right;">April 2016 – June 2017</span><br>
+        <span class="bold">UC Irvine Student Center & Events Services</span> - Irvine, CA<br>
+        Part-Time<br>
+      <ul>
+        <li>Organized and coordinated teams of five to fifteen to efficiently plan and execute room configurations for events.</li>
+        <li>Facilitated group discussions, assisted struggling coworkers, and ensured all tasks remained on schedule.</li>
+      </ul>
+      </p>
+    </div>
+
+    <div id="education">
+      <ul>
+        <li>
+          University of California Irvine <br>
+          September 2013 - June 2017 <br>
+          B.S. in <strong>Electrical Engineering</strong> <br>
+          Specialization in <strong>Electronic Circuit Design</strong> <br>
+        </li>
+        <li>
+          <strong>Engineer-in-Training Certification</strong><br>
+          May 2018 - Present<br>
+          Board of Professional Engineers, Land Surveyors & Geologists <br>
+          California License, EIT-164201 <br>
+        </li>
+      </ul>
+    </div>
+
+    <hr>
+    <div id=contactMe class="contactMe">
       <h2>Get In Touch</h2>
       <h3>For professional inquiries please email me!</h3>
       <p>"I can't change the direction of the wind, but I can adjust my sails to always reach my destination." - Jimmy Dean</p>
       <!--<a href="mailto:Jan.Timothy@gmail.com" class="contactMeButton">CONTACT ME</a>  -->
-      <a class="contactMeButton" href="mailto:Jan.Timothy@email.com">CONTACT ME</a>
+      <a class="contactMeButton" href="mailto:Jan.Timothy@gmail.com">CONTACT ME</a>
     </div>
   </div>
 
   <div class="bottomContainer">
     <a class="footerLink" href="https://www.linkedin.com/in/timothy-jan-533212108/">LinkedIn</a>
-    <a class="footerLink" href="https://twitter.com/_TimothyJan">Twitter</a>
+    <a class="footerLink" href="https://github.com/TimothyJan">Github</a>
     <a class="footerLink" href="https://www.instagram.com/timtim43/">Instagram</a>
     <p class="copyRight">© 2020 <span class="underlined">Timothy Jan</span>. All rights reserved.</p>
   </div>
